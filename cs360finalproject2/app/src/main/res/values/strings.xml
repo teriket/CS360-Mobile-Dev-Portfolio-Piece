@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CS360 Final Project</string>
+    <string name="login_prompt">Please Login</string>
+    <string name="login_button">login</string>
+    <string name="create_account_button">Sign Up</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="forgot_password_button">forgot password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="create_account_prompt">Create an account</string>
+    <string name="retrieve_password_prompt">Enter your email</string>
+    <string name="retrieve_password_button">submit</string>
+    <string name="appbar_title">Weight Manager</string>
+    <string name="menu_icon_description">Menu Icon</string>
+    <string name="new_weight_icon_description">set a new weight button</string>
+    <string name="fab">Add a new weight</string>
+    <string name="log_out_button_text">Log out</string>
+    <string name="permission_rational_body">This app uses SMS messages to notify you when you\'ve met your
+     goal</string>
+    <string name="permission_rationale_header">Allow Weight Manager to Send SMS Messages?</string>
+    <string name="permission_rationale_deny">Deny</string>
+    <string name="permission_rationale_allow">Allow</string>
+    <string name="edit_weight_menu_option">Edit Weight?</string>
+    <string name="delete_weight_menu_option">Delete?</string>
+    <string name="set_new_weight_edit_text">Weight</string>
+    <string name="set_the_date_button_description">Set the date</string>
+    <string name="new_weight_edit_text_description">Enter a new weight</string>
+</resources>

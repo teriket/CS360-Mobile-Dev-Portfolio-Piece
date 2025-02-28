@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete_weight"
+        android:title="@string/delete_weight_menu_option"/>
+
+    <item
+        android:id="@+id/edit_weight"
+        android:title="@string/edit_weight_menu_option" />
+</menu>

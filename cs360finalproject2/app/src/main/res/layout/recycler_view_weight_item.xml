@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="4"
+    android:tag="weight_item"
+    android:background="@color/green_3">
+
+    <ImageView
+        android:id="@+id/weight_direction_image"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/chevron_up_svgrepo_com"
+        android:contentDescription="@null"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weight_value"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="180lb"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/weight_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feb 8, 2025"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/congratulations_image"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/confetti_svgrepo_com"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/motivational_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Half way there!  Keep it up!"
+        android:textSize="14sp" />
+
+</LinearLayout>
